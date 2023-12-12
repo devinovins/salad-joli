@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Coffee</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feathers Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">Salad<span>Joli</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#"><i id="search" data-feather="search"></i></a>
+        <a href="#"><i id="shopping-cart" data-feather="shopping-cart"></i></a>
+        <a href="#"><i id="hamburger-menu" data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Bring salad to your <span> Home</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+          temporibus?
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="assets/img/about2.jpg" alt="About Us" />
+        </div>
+        <div class="content">
+          <h3>Why choose our salad?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
+            unde aperiam alias officia quae voluptates!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed error
+            molestiae dolorem ex culpa repellat!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section class="menu" id="menu">
+      <h2><span>Our</span> Menu</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ullam
+        dolores eaque, voluptate consequatur.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img class="menu-card-image" src="assets/img/2.jpg" />
+          <h3 class="menu-card-title">- El Paso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="assets/img/2.jpg" />
+          <h3 class="menu-card-title">- El Paso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="assets/img/2.jpg" />
+          <h3 class="menu-card-title">- El Paso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="assets/img/2.jpg" />
+          <h3 class="menu-card-title">- El Paso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img class="menu-card-image" src="assets/img/2.jpg" />
+          <h3 class="menu-card-title">- El Paso -</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+        ratione!
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31731.510892539874!2d106.93260529840565!3d-6.205697437475465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698b7bd6aac3af%3A0xe2c873238ab0cb69!2sPulo%20Gebang%2C%20Kec.%20Cakung%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1702376148488!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama..." />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email..." />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Handphone..." />
+          </div>
+          <!-- <button type="submit" class="btn">Send Me Message</button> -->
+          <button type="button" class="button">
+            <span class="button__text">Send Message</span>
+            <span class="button__icon">
+              <i id="send" data-feather="send"></i>
+            </span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#">Ahmad Yassin</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
